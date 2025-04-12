@@ -1,7 +1,7 @@
 * {box-sizing: border-box; }
 
-body { background-color: #B7B9AB;
-       color: #40407A;
+body { background-color: #9DA2A5;
+       color: black;
        font-family: 'Great Vibes', Georgia, serif, system-ui; }
 
 header { background-color: black; 
@@ -28,7 +28,7 @@ h1 { padding-top: 10px;
      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
    }
 
-h2 { color: #707E9B;
+h2 { color: #771621;
      font-family: 'Great Vibes', Georgia, serif, system-ui;
      font-weight: bold;    
           
@@ -39,35 +39,36 @@ nav { font-weight: bold;
       float: left;
       width: 160px;
       padding: 1em; 
-      background-color:  #FFE8CD;}
+      background-color:  #C9A77A;}
 
 nav ul { list-style-type: none;
          padding-left: 0; }      
 
-nav a { text-decoration: none; 
+nav a { text-decoration: none;
         display: block;
         padding: 1em;
         margin-bottom: 1em;
         text-align: center;
         height: 45px;
         white-space: nowrap;
-        width: 150px;
+        width: 120px;
         border: 3px outset #CCCCCC; 
         }
 
 
- nav a:link {color: #707E9B; }
+ nav a:link {color: #771621; }
 
- nav a:visited {color: #497777;}
+ nav a:visited {color: #771621;}
 
  nav a:hover {color: #A26100;             
-       border: 3px inset #333333;}
+       border: 3px inset #333333;
+       background-color: #FFE8CD;}
 
 .selected-page { color: #A26100;             
        border: 3px inset #333333; }
 
 .studio { font-style: italic; 
-          color: #707E9B;
+          color: #771621;
           font-weight: bold;}
 .address { font-family: Arial, sans-serif; 
            font-size: 12px; 
@@ -89,7 +90,7 @@ a[href^="mailto:"] {
            width: 80%;
            /*min-width: 1000px;
            max-width: 1100px; */
-           background-color:  #FFE8CD; }
+           background-color:  #C9A77A; }
 
 main { padding-left: 2em;
        padding-right: 2em; 
@@ -109,6 +110,8 @@ input {
     margin-bottom: 1em;
     height: 30px;
 }
+
+lable { color: #771621; }
 textarea {
     margin-bottom: 1em;
     height: 60px;
@@ -117,8 +120,14 @@ textarea {
 
 input[type="submit"],
 
-{   
-    background-color: #707E9B;
+{   font-weight: bold;
+      width: 200px;
+      height: 40px;
+      padding: 1em; 
+      background-color:  #C9A77A;
+      text-align: center;
+      color: #771621; 
+      border: 3px outset #CCCCCC;
 }  
 
 input[type="button"]
@@ -127,9 +136,9 @@ input[type="button"]
       width: 200px;
       height: 40px;
       padding: 1em; 
-      background-color:  #FFE8CD;
+      background-color:  #C9A77A;
       text-align: center;
-      color: #A26100; 
+      color: #771621; 
       border: 3px outset #CCCCCC;
 
 } 

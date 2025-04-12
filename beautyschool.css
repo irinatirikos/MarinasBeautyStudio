@@ -39,7 +39,7 @@ nav { font-weight: bold;
       float: left;
       width: 160px;
       padding: 1em; 
-      background-color:  #C9A77A;}
+      background-color:  #DAA520;}
 
 nav ul { list-style-type: none;
          padding-left: 0; }      
@@ -91,7 +91,7 @@ a[href^="mailto:"] {
            /*min-width: 1000px;
            max-width: 1100px; */
            margin: 0 auto;
-           background-color:  #C9A77A; }
+           background-color:  #DAA520; }
 
 main { padding-left: 2em;
        padding-right: 2em; 

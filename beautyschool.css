@@ -90,6 +90,7 @@ a[href^="mailto:"] {
            width: 80%;
            /*min-width: 1000px;
            max-width: 1100px; */
+           margin: 0 auto;
            background-color:  #C9A77A; }
 
 main { padding-left: 2em;
@@ -214,4 +215,28 @@ input[type="button"]:hover
 
 .popup.active {
     display: flex;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    nav {
+        width: 100%; /* Make navigation adapt to smaller screens */
+    }
+
+    .thumbnail {
+        width: 100px; /* Adjust image sizes for mobile */
+        height: 100px;
+    }
+
+    #desktop {
+        display: none; /* Hide desktop-specific content */
+    }
+
+    #mobile {
+        display: inline; /* Show mobile-specific content */
+    }
 }

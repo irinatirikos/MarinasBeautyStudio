@@ -1,6 +1,7 @@
 * {box-sizing: border-box; }
 
-body { background-color: #9DA2A5;
+body { margin: 0 auto;
+       background-color: #9DA2A5;
        color: black;
        font-family: 'Great Vibes', Georgia, serif, system-ui; }
 

@@ -1,16 +1,15 @@
 * {box-sizing: border-box; }
 
-body { margin: 0 auto;
-       background-color: #9DA2A5;
+body { background-color: #9DA2A5;
        color: black;
        font-family: 'Great Vibes', Georgia, serif, system-ui; }
 
 header { background-color: black; 
          background-image: url(header.jpg);
          background-repeat: no-repeat;
-         background-position: left;
+         background-position: right;
          height: 261px; 
-         width: 1050px;}
+        }
 
 header a { text-decoration: none; color: #FBD127; }  
 
@@ -50,9 +49,6 @@ nav a { text-decoration: none;
         padding: 1em;
         margin-bottom: 1em;
         text-align: center;
-        height: 45px;
-        white-space: nowrap;
-        width: 120px;
         border: 3px outset #CCCCCC; 
         }
 
@@ -65,8 +61,6 @@ nav a { text-decoration: none;
        border: 3px inset #333333;
        background-color: #FFE8CD;}
 
-.selected-page { color: #A26100;             
-       border: 3px inset #333333; }
 
 .studio { font-style: italic; 
           color: #771621;
@@ -88,9 +82,10 @@ a[href^="mailto:"] {
 
 #wrapper { margin-left: auto;
            margin-right: auto;
+           
            width: 80%;
-           /*min-width: 1000px;
-           max-width: 1100px; */
+           min-width: 1200px;
+           max-width: 1480px; 
            margin: 0 auto;
            background-color:  #DAA520; }
 
@@ -225,7 +220,7 @@ input[type="button"]:hover
     }
 
     nav {
-        width: 100%; /* Make navigation adapt to smaller screens */
+       /* width: 50%; /* Make navigation adapt to smaller screens */*/
     }
 
     .thumbnail {

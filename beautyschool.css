@@ -7,7 +7,7 @@ body { background-color: #9DA2A5;
 header { background-color: black; 
          background-image: url(header.jpg);
          background-repeat: no-repeat;
-         background-position: right;
+         background-position: left;
          height: 261px; 
         }
 

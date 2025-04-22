@@ -219,10 +219,10 @@ input[type="button"]:hover
         padding: 10px;
     }
 
-    nav {
+ /*   nav {
       width: 50px; /* Make navigation adapt to smaller screens */*/
     }
-       
+*/       
 header {
         width: 850px; /* Make header adapt to smaller screens */*/
     }

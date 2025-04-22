@@ -162,16 +162,6 @@ input[type="button"]:hover
 
 .onethird { float: left; width: 33%; padding-left: 2em; padding-right: 2em; }
 
-
- #mobile {
-  display: none;
-}
-
-#desktop {
-  display: inline;
-}
-
-
 .image-container {
     text-align: center;
     margin-top: 50px;
@@ -213,13 +203,14 @@ input[type="button"]:hover
     display: flex;
 }
 
-#desktop {
-        display: inline; /* Hide desktop-specific content */
+.desktop {
+        display: inline; /* show desktop-specific content */
     }
 
-    #mobile {
-        display: none; /* Show mobile-specific content */
+.mobile {
+        display: none; /* hide mobile-specific content */
     }
+
 @media (max-width: 768px) {
     body {
         font-size: 14px;
@@ -239,11 +230,11 @@ input[type="button"]:hover
         height: 150px;
     }
 
-    #desktop {
+    .desktop {
         display: none; /* Hide desktop-specific content */
     }
 
-    #mobile {
+    .mobile {
         display: inline; /* Show mobile-specific content */
     }
 }

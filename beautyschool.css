@@ -223,9 +223,10 @@ input[type="button"]:hover
       width: 50px; /* Make navigation adapt to smaller screens */*/
     }
 */       
-header {
+/* header {
         width: 850px; /* Make header adapt to smaller screens */*/
     }
+*/
     .thumbnail {
         width: 150px; /* Adjust image sizes for mobile */
         height: 150px;

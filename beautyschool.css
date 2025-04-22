@@ -220,9 +220,12 @@ input[type="button"]:hover
     }
 
     nav {
-       /* width: 50%; /* Make navigation adapt to smaller screens */*/
+      width: 50%; /* Make navigation adapt to smaller screens */*/
     }
-
+       
+header {
+        width: 50%; /* Make header adapt to smaller screens */*/
+    }
     .thumbnail {
         width: 150px; /* Adjust image sizes for mobile */
         height: 150px;

@@ -213,6 +213,13 @@ input[type="button"]:hover
     display: flex;
 }
 
+#desktop {
+        display: inline; /* Hide desktop-specific content */
+    }
+
+    #mobile {
+        display: none; /* Show mobile-specific content */
+    }
 @media (max-width: 768px) {
     body {
         font-size: 14px;

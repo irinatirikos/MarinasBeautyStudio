@@ -224,8 +224,8 @@ input[type="button"]:hover
     }
 
     .thumbnail {
-        width: 100px; /* Adjust image sizes for mobile */
-        height: 100px;
+        width: 150px; /* Adjust image sizes for mobile */
+        height: 150px;
     }
 
     #desktop {

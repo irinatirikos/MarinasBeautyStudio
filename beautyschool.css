@@ -1,6 +1,6 @@
 * {box-sizing: border-box; }
 
-body { background-color: #DAA520;
+body { background-color: #9DA2A5;
        color: black;
        font-family: 'Great Vibes', Georgia, serif, system-ui; }
 
@@ -87,7 +87,7 @@ a[href^="mailto:"] {
            min-width: 1200px;
            max-width: 1480px; 
            margin: 0 auto;
-           background-color:  #C9A77A; }
+           background-color:  #DAA5200; }
 
 main { padding-left: 2em;
        padding-right: 2em; 

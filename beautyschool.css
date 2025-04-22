@@ -203,11 +203,11 @@ input[type="button"]:hover
     display: flex;
 }
 
-.desktop {
+#desktop {
         display: inline; /* show desktop-specific content */
     }
 
-.mobile {
+#mobile {
         display: none; /* hide mobile-specific content */
     }
 
@@ -230,11 +230,11 @@ input[type="button"]:hover
         height: 150px;
     }
 
-    .desktop {
+    #desktop {
         display: none; /* Hide desktop-specific content */
     }
 
-    .mobile {
+    #mobile {
         display: inline; /* Show mobile-specific content */
     }
 }

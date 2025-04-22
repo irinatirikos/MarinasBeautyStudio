@@ -1,6 +1,6 @@
 * {box-sizing: border-box; }
 
-body { background-color: #9DA2A5;
+body { background-color: #DAA520;
        color: black;
        font-family: 'Great Vibes', Georgia, serif, system-ui; }
 
@@ -39,7 +39,7 @@ nav { font-weight: bold;
       float: left;
       width: 160px;
       padding: 1em; 
-      background-color:  #DAA520;}
+      background-color:  #C9A77A;}
 
 nav ul { list-style-type: none;
          padding-left: 0; }      
@@ -87,7 +87,7 @@ a[href^="mailto:"] {
            min-width: 1200px;
            max-width: 1480px; 
            margin: 0 auto;
-           background-color:  #DAA520; }
+           background-color:  #C9A77A; }
 
 main { padding-left: 2em;
        padding-right: 2em; 
@@ -178,8 +178,8 @@ input[type="button"]:hover
 }
 
 .thumbnail {
-    width: 250px;
-    height: 250px;
+    width: 190px;
+    height: 200px;
     cursor: pointer;
     border: 2px solid #ccc;
     transition: border 0.3s;

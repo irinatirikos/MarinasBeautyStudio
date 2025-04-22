@@ -28,34 +28,39 @@
         <h2>Уход за волосами</h2>
 
     <table> 
-    
+    <div class="image-container">        
     <tr>
-      <td><img src="highlight.jpg" title="Уход за волосами"  width="150" height="200"></td>
-      <td><img src="hairstyleTreatment.jpg" title="Уход за волосами"  width="150" height="200"></td>
-      <td><img src="hairstyleTreatment1.jpg" title="Уход за волосами"  width="150" height="200"></td>      
-      <td><img src="hairstyleTreatment2.jpg" title="Уход за волосами"  width="150" height="200"></td>      
-      <td><img src="hairstyleTreatment3.jpg" title="Уход за волосами"  width="150" height="200"></td>
+      <td><img src="highlight.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('highlight.jpg')" /></td>
+      <td><img src="hairstyleTreatment.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment.jpg')" /></td>
+      <td><img src="hairstyleTreatment1.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment1.jpg')" /></td>      
+      <td><img src="hairstyleTreatment2.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment2.jpg')" /></td>      
+      <td><img src="hairstyleTreatment3.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment3.jpg')" /></td>
     </tr>
     <tr>
-      <td><img src="hairstyleTreatment4.jpg" title="Уход за волосами"  width="150" height="200"></td>
-      <td><img src="hairstyleTreatment5.jpg" title="Уход за волосами"  width="150" height="200"></td>
-      <td><img src="hairstyleTreatment6.jpg" title="Уход за волосами"  width="150" height="200"></td>
-      <td><img src="hairstyleTreatment7.jpg" title="Уход за волосами"  width="150" height="200"></td>      
-      <td><img src="highlightTraining.jpg" title="Уход за волосами"  width="150" height="200"></td>
+      <td><img src="hairstyleTreatment4.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment4.jpg')" /></td>
+      <td><img src="hairstyleTreatment5.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment5.jpg')" /></td>
+      <td><img src="hairstyleTreatment6.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment6.jpg')" /></td>
+      <td><img src="hairstyleTreatment7.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment7.jpg')" /></td>      
+      <td><img src="highlightTraining8.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment8.jpg')" /></td>
     </tr>
     <tr>
       <td colspan="5">
           <a href="hairstyles.html"><input type="button" name="backButton" id="backButton" value="<<<  Назад"></a>
       </td> 
     </tr>     
+ 
+        <div id="popup" class="popup" onclick="closePopup()">
+            <img id="popup-image" src="" title="Увеличенная фотография" />
+        </div> 
+
   </table> 
 
     </main>
     
     <footer>
         Copyright &copy; 2025 Marina’s Beauty Studio<br>
-        <a href="mailto:IrinaTirikos777@gmail.com">Marina@MarinasBeautyStudio.com</a>
     </footer>
 </div>
+<script src="beautyschool.js"></script>
 </body>
 </html>

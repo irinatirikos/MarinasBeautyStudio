@@ -204,10 +204,12 @@ input[type="button"]:hover
 }
 
 .desktop {
-        display: inline; /* show desktop-specific content */
+       color: #771621;
+       display: inline; /* show desktop-specific content */
     }
 
 .mobile {
+        color: #771621;
         display: none; /* hide mobile-specific content */
     }
 
@@ -231,10 +233,12 @@ input[type="button"]:hover
     }
 
     .desktop {
+        color: #771621;
         display: none; /* Hide desktop-specific content */
     }
 
     .mobile {
+        color: #771621;
         display: inline; /* Show mobile-specific content */
     }
 }

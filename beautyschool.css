@@ -17,7 +17,8 @@ header a:link { color: #FBD127; }
 
 header a:visited { color: #FBD127; }    
 
-header a:hover { color: #FFFFFF; }
+header a:hover { color: #FFFFFF; 
+                 text-decoration: none;}
 
 
 h1 { padding-top: 10px;

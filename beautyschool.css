@@ -78,7 +78,20 @@ footer { background-color: black;
 
 
 a[href^="mailto:"] {
-    color: #FBD127; }         
+    color: #FBD127; } 
+
+a { color: #771621;
+     font-family: 'Great Vibes', Georgia, serif, system-ui;
+     font-weight: bold;      
+     text-decoration: none;
+   }
+
+/* Optional: Different styles for link states */
+a:hover {
+    color: #771621; /* Hover color */
+    text-decoration: underline; /* Adds underline when hovered */
+}
+
 
 #wrapper { margin-left: auto;
            margin-right: auto;

@@ -30,28 +30,26 @@
     <table>
     <div class="image-container">
     <tr>     
-        <td><img src="facials2SM.jpg" width="300" height="300" title="Курс Косметологов" class="thumbnail" onclick="showPopup('facials2.jpg')" /></td>
-        <td><img src="facialsSM.jpg" width="300" height="300" title="Курс Косметологов" class="thumbnail" onclick="showPopup('facials.jpg')" /></td>
-        <td><img src="facials1SM.jpg" width="300" height="300" title="Курс Косметологов" class="thumbnail" onclick="showPopup('facials1.jpg')" /></td> 
-      <td><img src="LipsTatooSM.jpg" width="300" height="300" title="Курс Косметологов" class="thumbnail" onclick="showPopup('LipsTatoo.jpg')" /></td>
-      <td><img src="LipsTatoo1SM.jpg" width="300" height="300" title="Курс Косметологов" class="thumbnail" onclick="showPopup('LipsTatoo1.jpg')" /></td>     
+        <td><img src="facials2SM.jpg" width="300" height="300" title="Курс Косметологов" class="thumbnail" onclick="showPopup('facials2.jpg')"></td>
+        <td><img src="facialsSM.jpg" width="300" height="300" title="Курс Косметологов" class="thumbnail" onclick="showPopup('facials.jpg')"></td>
+        <td><img src="facials1SM.jpg" width="300" height="300" title="Курс Косметологов" class="thumbnail" onclick="showPopup('facials1.jpg')"></td> 
+      <td><img src="LipsTatooSM.jpg" width="300" height="300" title="Курс Косметологов" class="thumbnail" onclick="showPopup('LipsTatoo.jpg')"></td>
+      <td><img src="LipsTatoo1SM.jpg" width="300" height="300" title="Курс Косметологов" class="thumbnail" onclick="showPopup('LipsTatoo1.jpg')"></td>     
     </tr>
         <br><br> <br><br>
     <tr>
-      <td colspan="5">
-           <br><br>
-          <a href="classes.html"><input type="button" name="backButton" id="backButton" value="<<<  Назад"></a>
+      <td>
+          <button id="backButton" onclick="window.location.href='classes.html';">&lt;&lt;&lt; Назад</button>
       </td> 
     </tr>
 
-    </div> <!-- Closed images on the page -->
-
-        <div id="popup" class="popup" onclick="closePopup()">
-            <img id="popup-image" src="" title="Увеличенная фотография" />
-        </div> 
-
   </table> 
 
+    <br>
+        <div id="popup" class="popup" onclick="closePopup()">
+            <img id="popup-image" title="Увеличенная фотография" src="placeholder.jpg">            
+        </div>         
+</div> <!-- Closed images on the page -->
     </main>
     
     <footer>

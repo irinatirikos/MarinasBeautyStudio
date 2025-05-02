@@ -143,7 +143,8 @@ input[type="submit"],
       border: 3px outset #CCCCCC;
 }  
 
-input[type="button"]
+
+button
 {   
       font-weight: bold;
       width: 200px;
@@ -155,11 +156,13 @@ input[type="button"]
       border: 3px outset #CCCCCC;
 
 } 
+button:hover  
+ { background-color: #FFE8CD;
+   border: 3px inset #333333;}
 
 
 input[type="submit"]:hover, 
-input[type="reset"]:hover, 
-input[type="button"]:hover  
+input[type="reset"]:hover
  { background-color: #FFE8CD;
    border: 3px inset #333333;}
 

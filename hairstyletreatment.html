@@ -25,36 +25,38 @@
     </nav>
     <main>        
 
-        <h2>Уход за волосами</h2>
+        <h2>Уход за волосами</h2> 
 
-    <table> 
-    <div class="image-container">        
+<div class="image-container">
+    <table>        
     <tr>
-      <td><img src="training20SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('training20SM.jpg')" /></td>
-      <td><img src="hairstyleTreatmentSM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment.jpg')" /></td>
-      <td><img src="hairstyleTreatment1SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment1.jpg')" /></td>      
-      <td><img src="hairstyleTreatment2SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment2.jpg')" /></td>      
-      <td><img src="hairstyleTreatment3SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment3.jpg')" /></td>
+      <td><img src="training20SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('training20SM.jpg')"></td>
+      <td><img src="hairstyleTreatmentSM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment.jpg')"></td>
+      <td><img src="hairstyleTreatment1SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment1.jpg')"></td>      
+      <td><img src="hairstyleTreatment2SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment2.jpg')"></td>      
+      <td><img src="hairstyleTreatment3SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment3.jpg')"></td>
     </tr>
     <tr>
-      <td><img src="hairstyleTreatment4SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment4.jpg')" /></td>
-      <td><img src="hairstyleTreatment5SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment5.jpg')" /></td>
-      <td><img src="hairstyleTreatment6SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment6.jpg')" /></td>
-      <td><img src="hairstyleTreatment7SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment7.jpg')" /></td>      
-      <td><img src="highlightTrainingSM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('highlightTraining.jpg')" /></td>
+      <td><img src="hairstyleTreatment4SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment4.jpg')"></td>
+      <td><img src="hairstyleTreatment5SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment5.jpg')"></td>
+      <td><img src="hairstyleTreatment6SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment6.jpg')"></td>
+      <td><img src="hairstyleTreatment7SM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('hairstyleTreatment7.jpg')"></td>      
+      <td><img src="highlightTrainingSM.jpg" title="Уход за волосами"  width="150" height="200" class="thumbnail" onclick="showPopup('highlightTraining.jpg')"></td>
     </tr>
     <tr>
-      <td colspan="5">
-          <a href="hairstyles.html"><input type="button" name="backButton" id="backButton" value="<<<  Назад"></a>
+      <td>
+          <button id="backButton" onclick="window.location.href='hairstyles.html';">&lt;&lt;&lt; Назад</button>
+      </td>       
+      <td colspan="4">
+          &nbsp;
       </td> 
-    </tr>     
- 
-        <div id="popup" class="popup" onclick="closePopup()">
-            <img id="popup-image" src="" title="Увеличенная фотография" />
-        </div> 
-
+    </tr>
   </table> 
-
+    <br>
+        <div id="popup" class="popup" onclick="closePopup()">
+            <img id="popup-image" title="Увеличенная фотография" src="placeholder.jpg">            
+        </div>         
+</div>
     </main>
     
     <footer>

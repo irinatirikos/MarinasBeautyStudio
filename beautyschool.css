@@ -41,7 +41,8 @@ nav { font-weight: bold;
       float: left;
       width: 160px;
       padding: 1em; 
-      background-color:  #DAA520;}
+      background-color:  #DAA520;
+      text-decoration: none; }
 
 nav ul { list-style-type: none;
          padding-left: 0; }      
@@ -61,7 +62,8 @@ nav a { text-decoration: none;
 
  nav a:hover {color: #A26100;             
        border: 3px inset #333333;
-       background-color: #FFE8CD;}
+       background-color: #FFE8CD;
+       text-decoration: none; }
 
 
 .studio { font-style: italic; 
@@ -136,13 +138,12 @@ input[type="submit"],
       width: 200px;
       height: 40px;
       padding: 1em; 
-      background-color:  #C9A77A;
+      background-color:  #DAA520;
       text-align: center;
       color: #771621; 
       border: 3px outset #CCCCCC;
 
 } 
-
 
 button
 {   

@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <div id="wrapper">
+<div id="wrapper">
     <header>
     <h1><a href="index.html">Marina’s Beauty Studio</a></h1>
     </header>
@@ -27,42 +27,44 @@
 
         <h2>Галерея студии</h2>
 
-    <table> 
-     
-    <div class="image-container"> 
+  
+  <div class="image-container"> 
+    <table>    
     <tr>      
-      <td><img src="logo.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('logo.jpg')" /></td>
-      <td><img src="BuildingBeautyStudio.jpg" title="Галерея студиии"  width="150" height="200" class="thumbnail" onclick="showPopup('BuildingBeautyStudio.jpg')" /></td>
-      <td><img src="priceList.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('priceList.jpg')" /></td>      
-      <td><img src="hairChair.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('hairChair.jpg')" /></td>      
-      <td><img src="products.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('products.jpg')" /></td>
+      <td><img src="logo.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('logo.jpg')"></td>
+      <td><img src="BuildingBeautyStudio.jpg" title="Галерея студиии"  width="150" height="200" class="thumbnail" onclick="showPopup('BuildingBeautyStudio.jpg')"></td>
+      <td><img src="priceList.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('priceList.jpg')"></td>      
+      <td><img src="hairChair.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('hairChair.jpg')"></td>      
+      <td><img src="products.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('products.jpg')"></td>
     </tr>
     <tr>
-      <td><img src="SalonInside.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside.jpg')" /></td>
-      <td><img src="salonInside1.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('salonInside1.jpg')" /></td>
-      <td><img src="SalonInside2.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside2.jpg')" /></td>
-      <td><img src="SalonInside3.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside3.jpg')" /></td>      
-      <td><img src="SalonInside4.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside4.jpg')" /></td>
+      <td><img src="SalonInside.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside.jpg')"></td>
+      <td><img src="salonInside1.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('salonInside1.jpg')"></td>
+      <td><img src="SalonInside2.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside2.jpg')"></td>
+      <td><img src="SalonInside3.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside3.jpg')"></td>      
+      <td><img src="SalonInside4.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside4.jpg')"></td>
     </tr>
     <tr>
-      <td><img src="SalonInside5.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside5.jpg')" /></td>
-      <td><img src="SalonInside6.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside6.jpg')" /></td>
-      <td><img src="SalonInside7.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside7.jpg')" /></td>
-      <td><img src="makeupChair.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('makeupChair.jpg')" /></td>      
-      <td><img src="products1.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('products1.jpg')" /></td>
+      <td><img src="SalonInside5.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside5.jpg')"></td>
+      <td><img src="SalonInside6.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside6.jpg')"></td>
+      <td><img src="SalonInside7.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('SalonInside7.jpg')"></td>
+      <td><img src="makeupChair.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('makeupChair.jpg')"></td>      
+      <td><img src="products1.jpg" title="Галерея студии"  width="150" height="200" class="thumbnail" onclick="showPopup('products1.jpg')"></td>
     </tr> 
     <tr>
-      <td colspan="5">
-          <a href="index.html"><input type="button" name="backButton" id="backButton" value="<<<  Назад"></a>
+      <td>
+          <button id="backButton" onclick="window.location.href='index.html';">&lt;&lt;&lt; Назад</button>
+      </td>       
+      <td colspan="4">
+          &nbsp;
       </td> 
     </tr>     
- 
+   </table> 
+
         <div id="popup" class="popup" onclick="closePopup()">
-            <img id="popup-image" src="" title="Увеличенная фотография" />
+            <img id="popup-image" src="placeholder.jpg" title="Увеличенная фотография">
         </div> 
-
-  </table> 
-
+  </div>
     </main>
     
     <footer>

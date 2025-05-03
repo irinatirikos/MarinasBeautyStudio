@@ -128,9 +128,9 @@ textarea {
     height: 60px;
     box-sizing: border-box;
 } 
-input[type="submit"],
-{    
-      font-weight: bold;
+input[type="submit"]
+
+{   font-weight: bold;
       width: 200px;
       height: 40px;
       padding: 1em; 
@@ -138,7 +138,8 @@ input[type="submit"],
       text-align: center;
       color: #771621; 
       border: 3px outset #CCCCCC;
-} 
+}  
+
 button
 {   
       font-weight: bold;

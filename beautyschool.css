@@ -122,7 +122,8 @@ input {
     height: 30px;
 }
 
-lable { color: #771621; }
+lable { color: #771621; 
+        font-weight: bold; }
 textarea {
     margin-bottom: 1em;
     height: 60px;

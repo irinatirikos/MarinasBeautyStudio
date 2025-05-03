@@ -67,6 +67,7 @@ nav a { text-decoration: none;
 .studio { font-style: italic; 
           color: #771621;
           font-weight: bold;}
+          
 .address { font-family: Arial, sans-serif; 
            font-size: 12px; 
            font-weight: bold;}
@@ -214,12 +215,12 @@ input[type="reset"]:hover
     display: flex;
 }
 
-.desktop {
+#desktop {
        color: #771621;
        display: inline; /* show desktop-specific content */
     }
 
-.mobile {
+#mobile {
         color: #771621;
         display: none; /* hide mobile-specific content */
     }
@@ -251,11 +252,11 @@ input[type="reset"]:hover
         height: 150px;
     }
 
-    .desktop {
+    #desktop {
         color: #771621;
         display: none; /* Hide desktop-specific content */
     }
-    .mobile {
+    #mobile {
         color: #771621;
         display: inline; /* Show mobile-specific content */
     }

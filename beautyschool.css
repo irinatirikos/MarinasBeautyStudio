@@ -54,8 +54,6 @@ nav a { text-decoration: none;
         text-align: center;
         border: 3px outset #CCCCCC; 
         }
-
-
  nav a:link {color: #771621; }
 
  nav a:visited {color: #771621;}
@@ -96,7 +94,6 @@ a:hover {
     text-decoration: underline; /* Adds underline when hovered */
 }
 
-
 #wrapper { margin-left: auto;
            margin-right: auto;
            
@@ -131,7 +128,6 @@ textarea {
     height: 60px;
     box-sizing: border-box;
 } 
-
 input[type="submit"],
 {   
       font-weight: bold;
@@ -142,9 +138,7 @@ input[type="submit"],
       text-align: center;
       color: #771621; 
       border: 3px outset #CCCCCC;
-
 } 
-
 button
 {   
       font-weight: bold;
@@ -155,27 +149,22 @@ button
       text-align: center;
       color: #771621; 
       border: 3px outset #CCCCCC;
-
 } 
 button:hover  
  { background-color: #FFE8CD;
    border: 3px inset #333333;}
-
 
 input[type="submit"]:hover, 
 input[type="reset"]:hover
  { background-color: #FFE8CD;
    border: 3px inset #333333;}
 
-
 .floatleft { margin-right: 4em; 
              margin-bottom: 1em;
              float: left; } 
-
 #hero { padding-top: 1em;
         padding-bottom: 1em; 
         text-align: center;} 
-
 .clear {clear: both;}                
 
 .onehalf { float: left; width: 50%; padding-left: 2em; padding-right: 2em; }
@@ -233,6 +222,14 @@ input[type="reset"]:hover
         display: none; /* hide mobile-specific content */
     }
 
+#mobile2 {
+  display: none;
+}
+
+#desktop2 {
+  display: inline;
+}
+
 @media (min-width: 768px) {
     body {
         font-size: 14px;
@@ -256,9 +253,14 @@ input[type="reset"]:hover
         color: #771621;
         display: none; /* Hide desktop-specific content */
     }
-
     .mobile {
         color: #771621;
+        display: inline; /* Show mobile-specific content */
+    }
+    #desktop2 {
+        display: none; /* Hide desktop-specific content */
+    }
+    #mobile2 {
         display: inline; /* Show mobile-specific content */
     }
 }

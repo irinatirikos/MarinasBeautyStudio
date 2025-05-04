@@ -129,6 +129,7 @@ lable { color: #771621;
 textarea {
     margin-bottom: 1em;
     height: 60px;
+    width: 500px;
     box-sizing: border-box;
 } 
 input[type="submit"]

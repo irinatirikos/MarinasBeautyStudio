@@ -9,6 +9,9 @@ header { background-color: black;
          background-repeat: no-repeat;
          background-position: left;
          height: 261px; 
+         width: 80%;
+    }
+
         }
 
 header a { text-decoration: none; color: #FBD127; }  
@@ -246,7 +249,7 @@ input[type="reset"]:hover
     }
 */       
  header {
-        width: 90%; /* Slightly smaller width on mobile */
+        width: 70%; /* Slightly smaller width on mobile */
         margin: auto; /* Center the header */
     }
 

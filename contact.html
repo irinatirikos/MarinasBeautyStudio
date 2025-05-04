@@ -27,17 +27,17 @@
 
         <h2>Контакт c Marina’s Beauty Studio</h2>
 
-        <p>Заполните форму ниже, чтобы связаться со студией красоты Марины. Вся информация обязательна.</p> 
+        <p>Заполните форму ниже, чтобы связаться со студией красоты Марины.</p> 
 
     <form method="post" action="https://webdevbasics.net/scripts/demo.php">
 
-        <label for="myName">Имя:</label>
+        <label for="myName">Имя:*</label>
         <input type="text" name="myName" id="myName" required>
 
-        <label for="myEmail">Электронная почта:</label>
+        <label for="myEmail">Электронная почта:*</label>
         <input type="email" name="myEmail" id="myEmail" required>
         
-        <label for="myRefer">Как вы узнали о нас?</label>
+        <label for="myRefer">Как вы узнали о нас?*</label>
         <input type="text" name="myRefer" id="myRefer" list="referral" required>
         <datalist id="referral">
             <option value="Google" label="Google">
@@ -47,7 +47,7 @@
             <option value="Radio Ad" label="Radio Ad">
         </datalist>
 
-        <label for="myComments">Комментарии:</label>
+        <label for="myComments">Комментарии:*</label>
         <textarea name="myComments" id="myComments" rows="2" cols="20" required></textarea>
         <br>
         <input type="submit" name="mySubmit" id="mySubmit" value="Послать информацию"> 

@@ -146,7 +146,7 @@ input[type="submit"]
 button
 {   
       font-weight: bold;
-      width: 200px;
+      width: 140px;
       height: 40px;
       padding: 1em; 
       background-color:  #DAA520;
@@ -181,7 +181,7 @@ input[type="reset"]:hover
 }
 
 .thumbnail {
-    width: 190px;
+    width: 185px;
     height: 200px;
     cursor: pointer;
     border: 2px solid #ccc;

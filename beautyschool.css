@@ -10,6 +10,7 @@ header { background-color: black;
          background-position: left;
          height: 261px; 
         }
+
 header a { text-decoration: none; color: #FBD127; }  
 
 header a:link { color: #FBD127; }   
@@ -119,22 +120,20 @@ form {
 
 input {
     margin-bottom: 1em;
-    width: 500px;
-    height: 40px;
-       }
+    height: 30px;
+}
 
 lable { color: #771621; 
         font-weight: bold; }
 textarea {
     margin-bottom: 1em;
     height: 60px;
-    width: 500px;
     box-sizing: border-box;
 } 
 input[type="submit"]
 
 {   font-weight: bold;
-      width: 200px;
+      width: 150px;
       height: 40px;
       padding: 1em; 
       background-color:  #DAA520;
@@ -234,7 +233,7 @@ input[type="reset"]:hover
   display: inline;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     body {
         font-size: 14px;
         padding: 10px;
@@ -244,11 +243,10 @@ input[type="reset"]:hover
       width: 50px; /* Make navigation adapt to smaller screens */*/
     }
 */       
- header {
-        width: 80%; /* Slightly smaller width on mobile */
-        margin: auto; /* Center the header */
+/* header {
+        width: 850px; /* Make header adapt to smaller screens */*/
     }
-
+*/
     .thumbnail {
         width: 150px; /* Adjust image sizes for mobile */
         height: 150px;

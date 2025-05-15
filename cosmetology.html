@@ -15,13 +15,35 @@
     <h1><a href="index.html">Marina’s Beauty Studio</a></h1>
     </header>
     <nav>
-        <ul>
+
+<ul class="nav-box">
         <li><a href="index.html">Главная</a></li> 
-        <li><a href="hairstyles.html">Прически</a></li>        
-        <li><a href="classes.html">Курсы</a></li>
+
+    <li>
+        <a href="#" class="nav-link">Прически  <img src="arrow-down.png" class="arrow-icon"></a>
+        <ul class="dropdown">
+            <li><a href="hairstyleregular.html">Ежедневные</a></li><br>
+            <li><a href="hairstylefancy.html">Праздничные</a></li><br>
+            <li><a href="hairstyletreatment.html">Уход за волосами</a></li>
+        </ul>
+    </li>
+
+
+    <li>
+        <a href="#" class="nav-link">Курсы <img src="arrow-down.png" class="arrow-icon">
+</a>
+        <ul class="dropdown">
+            <li><a href="hairstyleTraining.html">Парикмахеров</a></li><br>
+            <li><a href="cosmetology.html">Косметологов</a></li><br>
+            <li><a href="nails.html">Маникюрш</a></li>
+        </ul>
+    </li>
+
         <li><a href="gallery.html">Галерея</a></li> 
         <li><a href="contact.html">Контакт</a></li>
-    </ul>
+
+</ul>
+
     </nav>
     <main>        
 
@@ -38,7 +60,7 @@
     </tr>
     <tr>
       <td>
-          <button id="backButton" onclick="window.location.href='classes.html';">&lt;&lt;&lt; Назад</button>
+          <button id="backButton" onclick="window.location.href='index.html';">&lt;&lt;&lt; На главную</button>
       </td>       
       <td colspan="4">
           &nbsp;

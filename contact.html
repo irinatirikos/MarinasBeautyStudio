@@ -15,29 +15,51 @@
     <h1><a href="index.html">Marina’s Beauty Studio</a></h1>
     </header>
     <nav>
-        <ul>
+
+<ul class="nav-box">
         <li><a href="index.html">Главная</a></li> 
-        <li><a href="hairstyles.html">Прически</a></li>        
-        <li><a href="classes.html">Курсы</a></li>
+
+    <li>
+        <a href="#" class="nav-link">Прически  <img src="arrow-down.png" class="arrow-icon"></a>
+        <ul class="dropdown">
+            <li><a href="hairstyleregular.html">Ежедневные</a></li><br>
+            <li><a href="hairstylefancy.html">Праздничные</a></li><br>
+            <li><a href="hairstyletreatment.html">Уход за волосами</a></li>
+        </ul>
+    </li>
+
+
+    <li>
+        <a href="#" class="nav-link">Курсы <img src="arrow-down.png" class="arrow-icon">
+</a>
+        <ul class="dropdown">
+            <li><a href="hairstyleTraining.html">Парикмахеров</a></li><br>
+            <li><a href="cosmetology.html">Косметологов</a></li><br>
+            <li><a href="nails.html">Маникюрш</a></li>
+        </ul>
+    </li>
+
         <li><a href="gallery.html">Галерея</a></li> 
         <li><a href="contact.html">Контакт</a></li>
-    </ul>
+
+</ul>
+
     </nav>
     <main>        
 
         <h2>Контакт c Marina’s Beauty Studio</h2>
 
-        <p>Заполните форму ниже, чтобы связаться со студией красоты Марины.</p> 
+        <p>Заполните форму ниже, чтобы связаться со студией красоты Марины. Вся информация обязательна.</p> 
 
     <form method="post" action="https://webdevbasics.net/scripts/demo.php">
 
-        <label for="myName">Имя:*</label>
+        <label for="myName">Имя:</label>
         <input type="text" name="myName" id="myName" required>
 
-        <label for="myEmail">Электронная почта:*</label>
+        <label for="myEmail">Электронная почта:</label>
         <input type="email" name="myEmail" id="myEmail" required>
         
-        <label for="myRefer">Как вы узнали о нас?*</label>
+        <label for="myRefer">Как вы узнали о нас?</label>
         <input type="text" name="myRefer" id="myRefer" list="referral" required>
         <datalist id="referral">
             <option value="Google" label="Google">
@@ -47,10 +69,10 @@
             <option value="Radio Ad" label="Radio Ad">
         </datalist>
 
-        <label for="myComments">Комментарии:*</label>
+        <label for="myComments">Комментарии:</label>
         <textarea name="myComments" id="myComments" rows="2" cols="20" required></textarea>
         <br>
-        <input type="submit" name="mySubmit" id="mySubmit" value="Послать информацию"> 
+        <input type="submit" name="mySubmit" id="mySubmit" value="Послать форму"> 
 
     </form>
           

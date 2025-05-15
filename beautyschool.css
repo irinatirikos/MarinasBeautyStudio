@@ -40,16 +40,17 @@ h2 { color: #771621;
 nav { font-weight: bold;
       float: left;
       width: 160px;
-      padding: 1em; 
+      padding: 10px; 
+      padding-left: 5px;
       background-color:  #DAA520;
       text-decoration: none; }
 
 nav ul { list-style-type: none;
-         padding-left: 0; }      
+         padding-left: 5px; }      
 
 nav a { text-decoration: none;
         display: block;
-        padding: 1em;
+        padding: 10px;
         margin-bottom: 1em;
         text-align: center;
         border: 3px outset #CCCCCC; 
@@ -62,6 +63,51 @@ nav a { text-decoration: none;
        border: 3px inset #333333;
        background-color: #FFE8CD;
        text-decoration: none; }
+
+
+/* -- start dropdown  */
+.nav-box {width: 160px;}
+
+.dropdown {
+    display: none;
+    padding: 5px;
+    margin: 5px;
+    list-style: none; 
+    background: none;
+}
+
+.dropdown li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none; /* Just underline on hover, no background */
+}
+.dropdown li a {
+    display: inline; /* Ensures links appear like regular text */
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #771621;
+    background: none; /* Remove any box effect */
+    border: none; /* Remove any border */
+    white-space: nowrap;
+}
+
+.dropdown li a:hover {
+    text-decoration: none; /* Just underlines on hover */
+    font-size: 18px;
+    color: brown;
+}
+
+.nav-link {}
+
+.arrow-icon {
+    width: 16px; /* Adjust arrow size */
+    height: 16px;
+    margin-left: 5px; /* Space between text and image */
+}
+
+/* --end dropdown */
 
 
 .studio { font-style: italic; 
